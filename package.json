@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/techwithmanuel/untitledui-js.git"
+    "url": "git+https://github.com/startplaying/untitledui-js.git"
   },
   "keywords": [
     "react",
@@ -29,9 +29,9 @@
   "author": "Emmanuel Alozie",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/techwithmanuel/untitledui-js/issues"
+    "url": "https://github.com/startplaying/untitledui-js/issues"
   },
-  "homepage": "https://github.com/techwithmanuel/untitledui-js#readme",
+  "homepage": "https://github.com/startplaying/untitledui-js#readme",
   "devDependencies": {
     "@tsconfig/recommended": "^1.0.3",
     "@types/node": "^20.8.8",
