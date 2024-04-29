@@ -2,7 +2,6 @@
   "name": "untitledui-js",
   "version": "2.1.16",
   "description": "A simple library with a fully customizable collection of untitledui icons with out of the box support for framer motion",
-  "main": "index.js",
   "scripts": {
     "build": "tsup src/index.ts --format cjs --dts --minify",
     "prepare": "npm run build"
@@ -47,5 +46,12 @@
   },
   "dependencies": {
     "@r2wc/react-to-web-component": "^2.0.3"
-  }
+  },
+  "files": [
+    "dist/*",
+    "LICENSE",
+    "readme.md"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts"
 }
