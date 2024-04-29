@@ -19,6 +19,7 @@ export * as Time from "./icons/time";
 export * as Users from "./icons/users";
 export * as Weather from "./icons/weather";
 export * as Development from "./icons/development";
+export * as SPG from "./icons/spg";
 
 export * from "./icons/alerts";
 export * from "./icons/arrow";
@@ -38,3 +39,4 @@ export * from "./icons/time";
 export * from "./icons/users";
 export * from "./icons/weather";
 export * from "./icons/development";
+export * from "./icons/spg";
