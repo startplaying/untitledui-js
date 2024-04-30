@@ -5,7 +5,7 @@ import { SVG, Path, SVGComponentProps } from "../../template";
 
 export const Discord: FC<SVGComponentProps> = ({ pathProps, ...props }) => {
   return (
-    <SVG {...props}>
+    <SVG {...props} strokeWidth="1">
       <Path
         {...pathProps}
         d="M9.88806 10.068C9.20406 10.068 8.66406 10.668 8.66406 11.4C8.66406 12.132 9.21606 12.732 9.88806 12.732C10.5721 12.732 11.1121 12.132 11.1121 11.4C11.1241 10.668 10.5721 10.068 9.88806 10.068ZM14.2681 10.068C13.5841 10.068 13.0441 10.668 13.0441 11.4C13.0441 12.132 13.5961 12.732 14.2681 12.732C14.9521 12.732 15.4921 12.132 15.4921 11.4C15.4921 10.668 14.9521 10.068 14.2681 10.068Z"
@@ -22,11 +22,11 @@ export const Discord: FC<SVGComponentProps> = ({ pathProps, ...props }) => {
 
 export const D20: FC<SVGComponentProps> = ({ pathProps, ...props }) => {
   return (
-    <SVG {...props}>
+    <SVG {...props} strokeWidth="1.5">
       <Path
         {...pathProps}
         d="M3 5.99994L10 1.99994M3 5.99994V13.9999M3 5.99994L7 7.99994M10 1.99994L17 5.99994M10 1.99994L7 7.99994M10 1.99994L13 7.99994M17 5.99994V13.9999M17 5.99994L13 7.99994M17 13.9999L10 18.4999M17 13.9999L13 7.99994M17 13.9999L10 14.4999M10 18.4999L3 13.9999M10 18.4999V14.4999M3 13.9999L7 7.99994M3 13.9999L10 14.4999M7 7.99994H13M7 7.99994L10 14.4999M13 7.99994L10 14.4999"
-        stroke-width="1.5"
+        strokeWidth="1.5"
       />
     </SVG>
   );
