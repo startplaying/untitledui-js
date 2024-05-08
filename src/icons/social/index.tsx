@@ -110,3 +110,14 @@ export const Youtube: FC<SVGComponentProps> = ({ pathProps, ...props }) => {
     </SVG>
   );
 };
+
+export const TwitterX: FC<SVGComponentProps> = ({ pathProps, ...props }) => {
+  return (
+    <SVG {...props}>
+      <Path
+        {...pathProps}
+        d="M0.0585365 0.599976L9.32561 13.0285L0 23.1306H2.1L10.2622 14.2835L16.8585 23.1306H24L14.2134 10.0049L22.8915 0.599976H20.7951L13.2768 8.74622L7.20366 0.599976H0.0585365ZM3.14634 2.1485H6.42805L20.9159 21.5784H17.6341L3.14634 2.1485Z"
+      />
+    </SVG>
+  );
+};
