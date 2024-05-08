@@ -21,6 +21,7 @@ export * as Weather from "./icons/weather";
 export * as Development from "./icons/development";
 export * as SPG from "./icons/spg";
 export * as Images from "./icons/images";
+export * as Social from "./icons/social";
 
 export * from "./icons/alerts";
 export * from "./icons/arrow";
@@ -42,3 +43,4 @@ export * from "./icons/weather";
 export * from "./icons/development";
 export * from "./icons/spg";
 export * from "./icons/images"
+export * from "./icons/social"
