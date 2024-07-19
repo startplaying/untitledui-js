@@ -1,7 +1,6 @@
 ![Banner](/public/banner.png)
 
-# Get Started  → [Documentation](https://untitledui.vercel.app/)
-
+# Get Started → [Documentation](https://untitledui.vercel.app/)
 
 ### Installation
 
